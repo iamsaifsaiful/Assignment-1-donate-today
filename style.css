@@ -3,4 +3,43 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0px;
+}
+.header-section{
+    background-image: url(images/donation.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.header-section-div{
+    width: 50%;
+    height: 600px;
+    margin-left: 500px;
+    position: fixed; top: 220px;
+}
+.heading-text{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;   
+}
+.first-line{
+    font-size: 80px;
+}
+.heading-sub-text{
+    color: white;
+    text-align: center;
+    font-weight: 300px;
+    margin-bottom: 100px;
+}
+.donate-now-text{
+    color: white;
+    background-color: tomato;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 40%; 
 }
