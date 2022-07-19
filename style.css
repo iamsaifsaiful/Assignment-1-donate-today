@@ -10,20 +10,20 @@ body{
     background-image: url(images/donation.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 900px; 
 }
 .header-section-div{
     width: 50%;
     height: 600px;
     margin-left: 500px;
-    position: fixed; top: 220px;
+    position: absolute; top: 220px;
 }
 .heading-text{
     color: white;
     text-align: center;
     font-size: 70px;
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;      
 }
 .first-line{
     font-size: 80px;
@@ -42,4 +42,38 @@ body{
     text-decoration: none;
     margin-top: 10%;
     margin-left: 40%; 
+}
+.donate-today{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+.donate-today-text{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 3px;
+}
+.donate-today-sub-text{
+    margin-bottom: 50px;
+}
+.donate-amount{
+    display: inline-block;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    margin-left: 4px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+.select-box{
+    background-color: rgb(255, 216, 209);
+    color: tomato;
+    border: 2px solid tomato;
+}
+.amount-text{
+    margin-top: 60px;
+    
 }
