@@ -45,7 +45,7 @@ body{
 }
 .donate-today{
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -66,8 +66,7 @@ body{
     width: 150px;
     height: 150px;
     text-align: center;
-    color: rgb(100, 100, 100);
-}
+    color: rgb(100, 100, 100);}
 .select-box{
     background-color: rgb(255, 216, 209);
     color: tomato;
@@ -75,5 +74,189 @@ body{
 }
 .amount-text{
     margin-top: 60px;
-    
+    font-size: 25px;
+}
+.other-amount{
+    margin-top: 70px;
+    margin-bottom: 150px;
+    margin-left: 29%;
+    margin-right: 29%;
+    text-align: center;
+}
+#other-amount{
+    font-size: 20px;
+    border: none;
+    text-align: center;
+}
+.donate-now-button{
+    color: white;
+    background-color: rgb(255, 67, 33);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.donate-plan{
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display: flex;
+}
+.our-donate-plan-text{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 3px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.our-donate-plan-sub-text{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.donate-plan-box{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.plan-box-1{
+    background-color: rgb(179, 253, 225);
+}
+.plan-box-2{
+    background-color: rgb(148, 221, 255);
+}
+.plan-box-3{
+    background-color: rgb(255, 254, 193);
+}
+.donate-plan-icon{
+    width: 30%;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.plan-icon{
+    width: 100%;
+}
+.plan-heading-text{
+    font-weight: 900;
+}
+.donate-plan-text{
+    margin-left: 30px;
+    text-align: left;
+    margin-right: 30px;
+}
+.news-section{
+    margin-left: 11%;
+    margin-right: 11%;
+    display: flex;
+}
+.news-text{
+    width: 40%;
+    height: 415px;
+    margin-left: 8%;
+}
+.news-heading-text{
+    font-size: 30px;
+    font-weight: 800px;
+}
+.Watch-on-YouTube{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.news-video{
+    width: 40%;
+    height: 415px;
+    margin-left: 5%;
+}
+.video{
+    border-radius: 10px;
+}
+.join-team-section{
+    margin-left: 11%;
+    margin-right: 11%;
+    display: flex;
+}
+.volunteer{
+    width: 40%;
+    height: 415px;
+    margin-left: 8%;
+}
+.join-with-us{
+    width: 40%;
+    height: 415px;
+    margin-left: 3%;
+    text-align: right;
+}
+.volunteer-image{
+    width: 100%;
+    height: 315px;
+    border-radius: 10px;
+}
+.volunteer-sub-text{
+    padding-left: 10%;
+    text-align: justify;
+}
+.Join-with-us-button{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.update{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.update-heading{
+    font-size: 50px;
+    font-weight: 900px;
+    margin-bottom: 2px;
+}
+.email-box{
+    width: 100%;
+    height: 150px;
+    background-color: blanchedalmond;
+}
+.email{
+    padding: 10px 40px;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: left;
+    position: relative; top: 55px;
+}
+.subscribe{
+    padding: 5px 25px;
+    border: none;
+    background-color:tomato;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    text-align: center;
+    position: relative; top: 55px;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.be-humble{
+    color:tomato;
+    padding-top: 50px;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.website-link{
+    text-decoration: none;
+    color: white;
 }
